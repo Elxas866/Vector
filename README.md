@@ -11,3 +11,5 @@ If you want to learn C++, Git/GitHub and Open-Sourcing, this is the perfect repo
 2. Create a build directory (must be inside of project root dir)
 3. Run ``cmake ..`` to generate makefile
 4. Run ``make`` to compile project
+5. Make some changes + testing
+6. Create pull request
