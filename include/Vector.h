@@ -5,16 +5,16 @@
 
 class Vector {
 public:
-    // Variablen
+    // Variables
     double x;
     double y;
     double z;
 
-    // Konstruktoren
+    // Constructors
     Vector();
     Vector(double x, double y, double z);
 
-    // Operator-Überladungen
+    // Operator-overloading
     Vector& operator=(const Vector &vector);
 
     Vector operator+(const Vector &vector);

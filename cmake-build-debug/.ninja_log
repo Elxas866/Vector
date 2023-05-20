@@ -1,13 +1,8 @@
 # ninja log v5
-0	422	7056128019412842	CMakeFiles/Vector.dir/src/main.cpp.obj	399f7b3afe3032cd
-7	429	7056128019478539	CMakeFiles/Vector.dir/src/Vector.cpp.obj	5e34d8f47faf118b
-429	624	7056128021390881	Vector.exe	c7e8b4f2d5fb2bb8
-3	411	7056966683752246	CMakeFiles/Vector.dir/src/main.cpp.obj	14a325feaff1c3a1
-11	414	7056966683775612	CMakeFiles/Vector.dir/src/Vector.cpp.obj	ada155651c224188
-414	644	7056966686033440	Vector.exe	c7e8b4f2d5fb2bb8
-8	484	7062073207512916	CMakeFiles/Vector.dir/src/Vector.cpp.obj	ada155651c224188
-2	271	7062073497195520	CMakeFiles/Vector.dir/src/main.cpp.obj	14a325feaff1c3a1
-7	273	7062073497215414	CMakeFiles/Vector.dir/src/Vector.cpp.obj	ada155651c224188
-274	502	7062073499474519	Vector.exe	c7e8b4f2d5fb2bb8
 2	248	7062073844102472	CMakeFiles/Vector.dir/src/main.cpp.obj	14a325feaff1c3a1
 249	327	7062073844853370	Vector.exe	c7e8b4f2d5fb2bb8
+7	273	7062073497215414	CMakeFiles/Vector.dir/src/Vector.cpp.obj	ada155651c224188
+18	603	7063135307115095	build.ninja	1a20d99fc0b49d43
+11	1077	7063135318190527	CMakeFiles/Vector.dir/src/main.cpp.obj	14a325feaff1c3a1
+5	1079	7063135318205255	CMakeFiles/Vector.dir/src/Vector.cpp.obj	ada155651c224188
+1080	1574	7063135323156683	Vector.exe	c7e8b4f2d5fb2bb8

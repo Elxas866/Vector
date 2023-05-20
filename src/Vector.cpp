@@ -2,7 +2,7 @@
 
 using namespace std;
 
-// Konstruktoren
+// Constructors
 Vector::Vector() {
     x = 0;
     y = 0;
@@ -11,7 +11,7 @@ Vector::Vector() {
 
 Vector::Vector(double x, double y, double z): x(x), y(y), z(z) {};
 
-// Operator-Überladungen
+// Operator-overloading
 Vector& Vector::operator=(const Vector &vector) {
     if (&vector != this) {
         x = vector.x;
