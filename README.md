@@ -8,6 +8,6 @@ If you want to learn C++, Git/GitHub and Open-Sourcing, this is the perfect repo
 
 ## How to contribute
 1. Fork repository
-2. Create a build directory (must be inside of root dir)
+2. Create a build directory (must be inside of project root dir)
 3. Run ``cmake ..`` to generate makefile
 4. Run ``make`` to compile project
