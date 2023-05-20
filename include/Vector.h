@@ -23,6 +23,8 @@ public:
 
     double operator*(const Vector &vector);
 
+    Vector cross(const Vector &vector);
+
     friend std::ostream& operator<<(std::ostream& stream, const Vector &vector);
 };
 

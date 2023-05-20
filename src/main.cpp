@@ -13,12 +13,14 @@ int main() {
     Vector v4 = v1 - v2;
     Vector v5 = v2;
     double scalar_product = v1*v2;
+    Vector v6 = v1.cross(v2);
 
     // Print results
     cout << v3 << endl;
     cout << v4 << endl;
     cout << v5 << endl;
     cout << scalar_product << endl;
+    cout << v6 << endl;
 
     return 0;
 }
