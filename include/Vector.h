@@ -21,6 +21,8 @@ public:
 
     Vector operator-(const Vector &vector);
 
+    double operator*(const Vector &vector);
+
     friend std::ostream& operator<<(std::ostream& stream, const Vector &vector);
 };
 
