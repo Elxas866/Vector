@@ -39,6 +39,15 @@ Vector Vector::operator-(const Vector &vector) {
     return result;
 }
 
+double Vector::operator*(const Vector &vector) {
+    double result = 0;
+    result += this->x * vector.x;
+    result += this->y * vector.y;
+    result += this->z * vector.z;
+
+    return result;
+}
+
 ostream& operator<<(ostream& stream, const Vector &vector) {
     stream << "(" << vector.x << ", " << vector.y << ", " << vector.z << ")";
     return stream;
