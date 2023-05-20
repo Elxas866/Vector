@@ -52,3 +52,12 @@ ostream& operator<<(ostream& stream, const Vector &vector) {
     stream << "(" << vector.x << ", " << vector.y << ", " << vector.z << ")";
     return stream;
 }
+
+Vector Vector::cross(const Vector &vector) {
+    Vector result;
+    result.x = (this->y * vector.z) - (this->z * vector.y);
+    result.y = (this->z * vector.x) - (this->x * vector.z);
+    result.z = (this->x * vector.y) - (this->y * vector.x);
+
+    return result;
+}
