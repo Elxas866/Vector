@@ -12,8 +12,8 @@ int main() {
     Vector v3 = v1 + v2;
     Vector v4 = v1 - v2;
     Vector v5 = v2;
-    double scalar_product = v1*v2;
-    Vector v6 = v1.cross(v2);
+    double scalar_product = v1.scalar_product(v2);
+    Vector v6 = v1 * v2;
 
     // Print results
     cout << v3 << endl;
