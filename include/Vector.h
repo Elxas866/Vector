@@ -21,9 +21,9 @@ public:
 
     Vector operator-(const Vector &vector);
 
-    double operator*(const Vector &vector);
+    Vector operator*(const Vector &vector);
 
-    Vector cross(const Vector &vector);
+    double scalar_product(const Vector &vector);
 
     friend std::ostream& operator<<(std::ostream& stream, const Vector &vector);
 };

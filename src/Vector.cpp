@@ -39,11 +39,11 @@ Vector Vector::operator-(const Vector &vector) {
     return result;
 }
 
-double Vector::operator*(const Vector &vector) {
-    double result = 0;
-    result += this->x * vector.x;
-    result += this->y * vector.y;
-    result += this->z * vector.z;
+Vector Vector::operator*(const Vector &vector) {
+    Vector result;
+    result.x = (this->y * vector.z) - (this->z * vector.y);
+    result.y = (this->z * vector.x) - (this->x * vector.z);
+    result.z = (this->x * vector.y) - (this->y * vector.x);
 
     return result;
 }
@@ -53,11 +53,11 @@ ostream& operator<<(ostream& stream, const Vector &vector) {
     return stream;
 }
 
-Vector Vector::cross(const Vector &vector) {
-    Vector result;
-    result.x = (this->y * vector.z) - (this->z * vector.y);
-    result.y = (this->z * vector.x) - (this->x * vector.z);
-    result.z = (this->x * vector.y) - (this->y * vector.x);
+double Vector::scalar_product(const Vector &vector) {
+    double result = 0;
+    result += this->x * vector.x;
+    result += this->y * vector.y;
+    result += this->z * vector.z;
 
     return result;
 }
