@@ -53,6 +53,7 @@ ostream& operator<<(ostream& stream, const Vector &vector) {
     return stream;
 }
 
+// Functions
 double Vector::scalar_product(const Vector &vector) {
     double result = 0;
     result += this->x * vector.x;

@@ -5,7 +5,7 @@
 
 class Vector {
 public:
-    // Variables
+    // Attributes
     double x;
     double y;
     double z;
@@ -23,9 +23,10 @@ public:
 
     Vector operator*(const Vector &vector);
 
-    double scalar_product(const Vector &vector);
-
     friend std::ostream& operator<<(std::ostream& stream, const Vector &vector);
+
+    // Functions
+    double scalar_product(const Vector &vector);
 };
 
 #endif //VECTOR_H
