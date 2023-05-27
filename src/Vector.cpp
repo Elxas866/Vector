@@ -48,17 +48,31 @@ Vector Vector::operator*(const Vector &vector) {
     return result;
 }
 
+Vector Vector::operator*(int t) {
+    Vector result;
+    result.x = (this->x * t);
+    result.y = (this->y * t);
+    result.z = (this->z * t);
+
+    return result;
+
+}
+
 ostream& operator<<(ostream& stream, const Vector &vector) {
     stream << "(" << vector.x << ", " << vector.y << ", " << vector.z << ")";
     return stream;
 }
 
 // Functions
-double Vector::scalar_product(const Vector &vector) {
+double Vector::scalar_product(const Vector &v) {
     double result = 0;
-    result += this->x * vector.x;
-    result += this->y * vector.y;
-    result += this->z * vector.z;
+    result += this->x * v.x;
+    result += this->y * v.y;
+    result += this->z * v.z;
 
     return result;
+}
+
+bool Vector::isNormalTo(const Vector &v) {
+    return this->scalar_product(v) == 0;
 }

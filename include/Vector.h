@@ -22,11 +22,14 @@ public:
     Vector operator-(const Vector &vector);
 
     Vector operator*(const Vector &vector);
+    Vector operator*(int t);
+
 
     friend std::ostream& operator<<(std::ostream& stream, const Vector &vector);
 
     // Functions
-    double scalar_product(const Vector &vector);
+    double scalar_product(const Vector &v);
+    bool isNormalTo(const Vector &v);
 };
 
 #endif //VECTOR_H

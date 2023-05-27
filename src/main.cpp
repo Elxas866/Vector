@@ -14,6 +14,7 @@ int main() {
     Vector v5 = v2;
     double scalar_product = v1.scalar_product(v2);
     Vector v6 = v1 * v2;
+    Vector v7 = v1 * 3;
 
     // Print results
     cout << v3 << endl;
@@ -21,6 +22,8 @@ int main() {
     cout << v5 << endl;
     cout << scalar_product << endl;
     cout << v6 << endl;
+    cout << v7 << endl;
+    cout << v2.isNormalTo(v3) << endl;
 
     return 0;
 }
