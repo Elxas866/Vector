@@ -9,7 +9,8 @@ If you want to learn C++, Git/GitHub and Open-Sourcing, this is the perfect repo
 ## How to contribute
 1. Fork/Clone repository
 2. Create a build directory (must be inside of project root dir)
-3. Run ``cmake ..`` to generate makefile
-4. Run ``make`` to compile project
-5. Make some changes + testing
-6. Create pull request
+3. ``cd`` into the new directory
+4. Run ``cmake ..`` to generate makefile
+5. Run ``make`` to compile project
+6. Make some changes + testing
+7. Create pull request
